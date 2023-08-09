@@ -5,8 +5,13 @@ const el = document.getElementById("root");
 const root = ReactDOM.createRoot(el);
 
 function App (){
+
+let message = "Bye there!";
+if (Math.random() > 0.5)
+{message = "hi there!";}
+
 return(
-    <h1>Hi!</h1>
+          <h1>{message}</h1>
 )
 };
 
