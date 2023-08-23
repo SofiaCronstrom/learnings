@@ -8,7 +8,7 @@ function App (){
 
 
 return(
-          <h1>{new Date().toLocaleTimeString()}</h1>
+<input type="number" min={5} style={{border: "3px solid green"}}/>        
 )
 };
 
