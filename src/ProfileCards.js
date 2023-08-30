@@ -1,6 +1,11 @@
-function ProfileCards(){
+function ProfileCards({title, handle, imageSrc}){
 return(
-    <div>Profile card!</div>
+    <div>
+        <img src={imageSrc} alt="pda logo"/>
+       <div>{title}</div>
+       <div>{handle}</div>
+    </div>
+
 )
 };
 
