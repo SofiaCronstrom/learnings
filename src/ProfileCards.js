@@ -1,6 +1,6 @@
 function ProfileCards({title, handle, imageSrc, description}){
 return(
-    <div className="card">
+    <div className="card" style={{minHeight: "400px"}}>
        <div className="card-image">
         <figure className="image is-1by1">
           <img src={imageSrc} alt="pda logo"/>
